@@ -61,7 +61,7 @@ fi
 if [ ! -e "$BUILDDIR/psutil-0.6.1" ]; then
     cd "$BUILDDIR"
     set_downloader
-    downloader http://psutil.googlecode.com/files/psutil-0.6.1.tar.gz
+    downloader https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/psutil/psutil-0.6.1.tar.gz
     tar zxvf psutil-0.6.1.tar.gz
     cd "$BUILDDIR/psutil-0.6.1"
     patch -p1 -i "$ROOTDIR/patch/psutil-0.6.1-android.patch"
