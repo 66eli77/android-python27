@@ -18,6 +18,14 @@ export PATH="$NDK/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/
 
 bash bootstrap.sh && build.sh && package.sh
 
+-------
+
+# Eli's journey
+
+1. I'm using ubuntu [ubuntu-12.04.3-dvd-i386](http://old-releases.ubuntu.com/releases/releases/12.04/release/ubuntu-12.04.3-dvd-i386.iso) (32-bit), tried ubuntu-12.04.3-desktop-amd64+mac (64-bit) doesn't work.
+2. check your gcc version, make sure you are using gcc-4.4, mine defaulted to gcc-4.6.
+3. [android-ndk-r7c](http://dl.google.com/android/ndk/android-ndk-r7c-linux-x86.tar.bz2)
+4. [andriod-sdk](https://dl.google.com/android/android-sdk_r24.4.1-linux.tgz)
 
 -------
 
